@@ -1,0 +1,300 @@
+2020-08-27 21:05:04.526 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 21:05:05.156 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusrename(String), testpassword(String), 1(Long), 2020-08-27 21:05:02.615(Timestamp), null
+2020-08-27 21:05:05.187 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 21:05:05.222 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:05:05.225 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:05:05.254 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 2
+2020-08-27 21:05:05.332 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 21:05:05.333 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: testpasswordnew(String), 2020-08-27 21:05:05.292(Timestamp), 1(Long), testusrename(String), testpassword(String)
+2020-08-27 21:05:05.366 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 21:05:05.370 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:05:05.371 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:05:05.389 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 2
+2020-08-27 21:06:29.759 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 21:06:29.861 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusrename(String), testpassword(String), 1(Long), 2020-08-27 21:06:28.915(Timestamp), null
+2020-08-27 21:06:29.889 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 21:06:29.919 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:06:29.920 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:06:29.945 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 21:06:30.061 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 21:06:30.062 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: testpasswordnew(String), 2020-08-27 21:06:29.962(Timestamp), 1(Long), testusrename(String), testpassword(String)
+2020-08-27 21:06:30.094 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 21:06:30.095 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:06:30.096 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:06:30.114 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 21:12:45.591 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 21:12:45.674 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusrename(String), testpassword(String), 1(Long), 2020-08-27 21:12:44.734(Timestamp), null
+2020-08-27 21:12:45.706 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 21:12:45.744 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:12:45.745 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:12:45.783 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 21:12:45.914 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 21:12:45.916 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: testpasswordnew(String), 2020-08-27 21:12:45.834(Timestamp), 1(Long), testusrename(String), testpassword(String)
+2020-08-27 21:12:45.949 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 21:12:45.950 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:12:45.951 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:12:45.966 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 21:14:40.079 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 21:14:40.132 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusrename(String), testpassword(String), 1(Long), 2020-08-27 21:14:39.095(Timestamp), null
+2020-08-27 21:14:40.198 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 21:14:40.274 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:14:40.275 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:14:40.317 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 21:14:40.329 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 21:14:40.329 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusrename(String), testpassword(String)
+2020-08-27 21:14:40.344 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2020-08-27 21:14:40.400 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 21:14:40.402 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: testpasswordnew(String), 2020-08-27 21:14:40.348(Timestamp), 1(Long), testusrename(String), testpassword(String)
+2020-08-27 21:14:40.452 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 21:14:40.454 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:14:40.455 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:14:40.476 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 21:15:07.064 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:15:07.105 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:15:07.156 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 21:15:07.305 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 21:15:07.316 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 21:15:07.253(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 21:15:07.341 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 21:16:04.266 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:16:04.312 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:16:04.365 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 21:16:04.376 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 21:16:04.386 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 21:16:04.373(Timestamp), 2020-08-27 21:16:04.373(Timestamp)
+2020-08-27 21:16:04.485 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 21:16:04.628 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 21:16:04.630 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 21:16:04.661 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 21:16:04.778 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 21:16:04.792 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 21:16:04.68(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 21:16:04.815 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 21:16:04.858 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 21:16:04.859 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 21:16:04.879 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 0
+2020-08-27 21:16:59.636 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 21:16:59.737 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 21:16:59.537(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 21:16:59.764 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 21:56:23.917 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 21:56:28.627 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 21:56:18.884(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 21:56:28.703 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:09:16.576 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:09:16.657 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusrename(String), testpassword(String), 1(Long), 2020-08-27 22:09:15.748(Timestamp), null
+2020-08-27 22:09:54.089 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:09:54.126 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:09:54.126 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:09:54.176 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 2
+2020-08-27 22:09:54.200 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:09:54.201 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusrename(String), testpassword(String)
+2020-08-27 22:09:54.233 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2020-08-27 22:09:54.408 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:09:54.410 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: testpasswordnew111(String), 2020-08-27 22:09:54.236(Timestamp), 1(Long), testusrename(String), testpassword(String)
+2020-08-27 22:09:54.461 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:09:54.463 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:09:54.464 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:09:54.485 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 2
+2020-08-27 22:10:51.803 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:10:51.931 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusrename(String), testpassword(String), 1(Long), 2020-08-27 22:10:50.738(Timestamp), null
+2020-08-27 22:10:51.958 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:10:52.028 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:10:52.029 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: testpasswordnew111(String), 2020-08-27 22:10:51.988(Timestamp), 1(Long), testusrename(String), testpassword(String)
+2020-08-27 22:10:52.061 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:10:52.065 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:10:52.066 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:10:52.095 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:14:47.715 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:14:47.759 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 22:14:47.623(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:14:47.783 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:15:41.176 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:15:41.248 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 22:15:41.008(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:15:41.274 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:16:39.353 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:16:39.405 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 22:16:39.263(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:16:39.425 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:21:42.267 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:21:42.307 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: newpassword(String), 2020-08-27 22:21:42.167(Timestamp), 1(Long), testusername(String), testpassword(String)
+2020-08-27 22:21:42.332 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:21:42.468 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:21:42.469 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:21:42.535 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 0
+2020-08-27 22:25:57.699 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:26:01.812 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: newpassword(String), 2020-08-27 22:25:53.877(Timestamp), 1(Long), testusername(String), testpassword(String)
+2020-08-27 22:26:01.868 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:27:46.938 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:27:47.025 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: new111password(String), 2020-08-27 22:27:46.803(Timestamp), 1(Long), testusername(String), testpassword(String)
+2020-08-27 22:27:47.052 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:29:38.543 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:29:38.585 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: y5lbs0qs6e62525y9lbbqs65qb6l6e69(String), 2020-08-27 22:29:38.445(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:29:38.615 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:32:30.738 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:32:30.790 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:32:30.576(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:32:30.817 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:33:10.814 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:33:10.862 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:33:10.904 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:33:10.914 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:33:10.923 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:33:10.911(Timestamp), 2020-08-27 22:33:10.911(Timestamp)
+2020-08-27 22:33:10.952 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:33:11.021 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:33:11.021 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:33:11.049 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:33:11.154 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:33:11.164 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:33:11.082(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:33:11.201 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:33:11.247 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:33:11.247 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), 6559sq606y6l92e9ss5qsqb5q92e566b(String)
+2020-08-27 22:33:11.263 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2020-08-27 22:34:55.336 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:34:55.379 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: y5lbs0qs6e62525y9lbbqs65qb6l6e69(String), 2020-08-27 22:34:55.232(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:34:55.405 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:35:20.285 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:35:20.332 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:35:20.184(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:35:20.358 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:36:15.987 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:36:16.031 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:36:16.074 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:36:16.083 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:36:16.096 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:36:16.081(Timestamp), 2020-08-27 22:36:16.081(Timestamp)
+2020-08-27 22:36:16.125 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:36:16.190 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:36:16.190 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:36:16.214 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:36:16.275 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:36:16.276 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: y5lbs0qs6e62525y9lbbqs65qb6l6e69(String), 2020-08-27 22:36:16.234(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:36:16.301 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:36:16.348 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:36:16.349 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:36:16.367 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 0
+2020-08-27 22:36:57.614 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:36:57.701 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:36:57.745 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:36:57.765 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:36:57.783 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:36:57.762(Timestamp), 2020-08-27 22:36:57.762(Timestamp)
+2020-08-27 22:36:57.819 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:36:57.896 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:36:57.897 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:36:57.946 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:36:58.067 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:36:58.069 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:36:58.014(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:36:58.129 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:36:58.224 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:36:58.225 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:36:58.243 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 0
+2020-08-27 22:37:59.553 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:37:59.596 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:37:59.733 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:37:59.898 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:37:59.902 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: y5lbs0qs6e62525y9lbbqs65qb6l6e69(String), 2020-08-27 22:37:59.846(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:37:59.927 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:38:24.980 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:38:25.020 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:38:25.078 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:38:25.092 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:38:25.102 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:38:25.089(Timestamp), 2020-08-27 22:38:25.089(Timestamp)
+2020-08-27 22:38:25.126 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:38:25.198 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:38:25.199 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:38:25.253 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:38:25.399 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:38:25.409 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: y5lbs0qs6e62525y9lbbqs65qb6l6e69(String), 2020-08-27 22:38:25.283(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:38:25.431 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:38:25.474 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:38:25.476 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:38:25.510 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 0
+2020-08-27 22:38:59.357 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:38:59.412 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:38:59.461 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:38:59.473 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:38:59.486 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:38:59.47(Timestamp), 2020-08-27 22:38:59.47(Timestamp)
+2020-08-27 22:38:59.514 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:38:59.573 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:38:59.574 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:38:59.595 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:38:59.651 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:38:59.653 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:38:59.614(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:38:59.682 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:38:59.721 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:38:59.721 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), 6559sq606y6l92e9ss5qsqb5q92e566b(String)
+2020-08-27 22:38:59.737 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2020-08-27 22:41:44.250 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:41:44.351 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:41:44.414 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:41:44.556 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:41:44.563 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: y5lbs0qs6e62525y9lbbqs65qb6l6e69(String), 2020-08-27 22:41:44.506(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:41:44.599 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:42:13.280 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:42:13.332 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:42:13.413 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:42:13.425 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:42:13.434 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:42:13.422(Timestamp), 2020-08-27 22:42:13.422(Timestamp)
+2020-08-27 22:42:13.454 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:42:13.497 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:42:13.497 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:42:13.519 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:42:13.595 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:42:13.597 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:42:13.538(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:42:13.621 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:42:13.666 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:42:13.667 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:42:13.679 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 0
+2020-08-27 22:43:12.525 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:43:12.599 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:43:12.698 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:43:12.710 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:43:12.721 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:43:12.707(Timestamp), 2020-08-27 22:43:12.707(Timestamp)
+2020-08-27 22:43:12.752 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:43:12.806 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:43:12.807 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:43:12.830 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:43:12.913 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:43:12.914 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:43:12.849(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:43:12.941 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:43:12.981 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:43:12.982 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:43:12.997 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 0
+2020-08-27 22:44:13.096 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:44:13.167 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:44:13.245 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:44:13.259 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:44:13.270 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:44:13.255(Timestamp), 2020-08-27 22:44:13.256(Timestamp)
+2020-08-27 22:44:13.289 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:44:13.413 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:44:13.414 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:44:13.456 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:44:13.603 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:44:13.604 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:44:13.486(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:44:13.628 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:44:13.668 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:44:13.669 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:44:13.694 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 0
+2020-08-27 22:44:52.795 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:44:52.842 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:44:52.901 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:44:52.920 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:44:52.932 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:44:52.916(Timestamp), 2020-08-27 22:44:52.916(Timestamp)
+2020-08-27 22:44:52.959 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:44:53.016 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:44:53.016 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:44:53.038 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:44:53.143 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:44:53.145 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 6559sq606y6l92e9ss5qsqb5q92e566b(String), 2020-08-27 22:44:53.088(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:44:53.160 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:44:53.189 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:44:53.190 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), 6559sq606y6l92e9ss5qsqb5q92e566b(String)
+2020-08-27 22:44:53.207 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2020-08-27 22:45:44.263 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:45:44.320 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 22:45:44.169(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:45:44.346 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 0
+2020-08-27 22:46:12.421 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:46:12.469 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:46:12.515 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 0
+2020-08-27 22:46:12.525 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username, password, user_id, create_time, last_edit_time) VALUES (?, ?, ?, ?, ?) 
+2020-08-27 22:46:12.534 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String), 1(Long), 2020-08-27 22:46:12.523(Timestamp), 2020-08-27 22:46:12.523(Timestamp)
+2020-08-27 22:46:12.561 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2020-08-27 22:46:12.631 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2020-08-27 22:46:12.632 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2020-08-27 22:46:12.650 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
+2020-08-27 22:46:12.713 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==>  Preparing: update tb_local_auth SET password=?, last_edit_time=? where user_id=? AND username=? AND password=? 
+2020-08-27 22:46:12.717 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - ==> Parameters: 9sqs00b02bs0e5ss22sq5syql96ys0lb(String), 2020-08-27 22:46:12.67(Timestamp), 1(Long), testusername(String), s06l5bl5s05602ly2syls6556q56sb6e(String)
+2020-08-27 22:46:12.742 [main] DEBUG com.housy.o2o.dao.LocalAuthDao.updateLocalAuth - <==    Updates: 1
+2020-08-27 22:46:12.781 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.password, l.create_time, l.last_edit_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.password = ? 
+2020-08-27 22:46:12.781 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), 9sqs00b02bs0e5ss22sq5syql96ys0lb(String)
+2020-08-27 22:46:12.796 [main] DEBUG c.h.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1

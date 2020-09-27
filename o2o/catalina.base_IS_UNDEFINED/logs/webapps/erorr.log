@@ -1,0 +1,10 @@
+2020-03-21 20:50:49.737 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 21:00:46.827 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 21:10:11.123 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 21:35:28.831 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 21:36:40.715 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 21:38:12.530 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 21:39:04.227 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 21:39:40.088 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 22:05:38.959 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-03-21 22:13:46.726 [main] ERROR com.housy.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
